@@ -43,6 +43,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 KCrash provides support for intercepting and handling application
 crashes.
 
+%description -l pl.UTF-8
+KCrash dostarcza wsparcie dla przechwytywania i obsługi "crashy"
+aplikacji.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
