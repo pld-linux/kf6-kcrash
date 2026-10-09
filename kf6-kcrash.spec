@@ -3,18 +3,18 @@
 %bcond_with	tests		# build with tests
 # TODO:
 # - runtime Requires if any
-%define		kdeframever	6.30
+%define		kdeframever	6.31
 %define		qtver		5.15.2
 %define		kfname		kcrash
 
 Summary:	Graceful handling of application crashes
 Name:		kf6-%{kfname}
-Version:	6.30.0
+Version:	6.31.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	d0e315d5e28f4139a69c98bbe9398c65
+# Source0-md5:	2f80e5f62a5b049096e26680997ed21d
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Test-devel >= %{qtver}
